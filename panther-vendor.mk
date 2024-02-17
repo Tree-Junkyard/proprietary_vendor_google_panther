@@ -85,45 +85,28 @@ PRODUCT_COPY_FILES += \
     vendor/google/panther/proprietary/system_ext/priv-app/EuiccSupportPixel/esim-full-v1.img:$(TARGET_COPY_OUT_SYSTEM_EXT)/priv-app/EuiccSupportPixel/esim-full-v1.img
 
 PRODUCT_PACKAGES += \
-    VZWAPNLib \
-    AppDirectedSMSService \
     CarrierSettings \
-    CarrierWifi \
-    ConnMO \
-    DCMO \
-    DMService \
-    DeviceIntelligenceNetworkPrebuilt \
-    DevicePersonalizationPrebuiltPixel2022 \
     DiagMon \
     EuiccGoogle \
     HardwareInfo \
     HotwordEnrollmentOKGoogleFUSIONPro \
     HotwordEnrollmentXGoogleFUSIONPro \
-    OemDmTrigger \
     PixelCameraServicesP10 \
-    TetheringEntitlement \
-    WfcActivation \
     OemRilHookService \
-    CarrierSetup \
-    ConnectivityThermalPowerManager \
     EuiccGoogleOverlay \
     EuiccSupportPixel \
     EuiccSupportPixelPermissions \
     LLKAgent \
-    MyVerizonServices \
     OemRilService \
     PixelQualifiedNetworksService \
-    RilConfigService \
     ShannonIms \
     ShannonRcs \
-    grilservice \
     libhwinfo \
     RadioConfigLib \
     com.android.hotwordenrollment.common.util \
     com.google.android.camera.experimental2022_system \
     com.google.android.camera.extensions \
     com.google.android.camerax.extensions \
-    google-ril \
     oemrilhook \
     vendor.google.edgetpu_app_service@1.0-service
 PRODUCT_COPY_FILES += \
